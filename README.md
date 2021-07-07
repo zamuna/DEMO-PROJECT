@@ -1,5 +1,5 @@
 # demo-project
-
+This is a vue js project
 ## Project setup
 ```
 npm install
