@@ -7,7 +7,7 @@
         class="d-flex"
         cols="12"
         md="4"
-        sm="12"
+        sm="4"
       >
         <Product :product="product" />
       </v-col>
@@ -24,7 +24,6 @@ export default {
   },
   data() {
     return {
-      isHovered: false,
       show: false,
       products: [],
     };

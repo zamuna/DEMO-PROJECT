@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product vue match snapshots 1`] = `
+<div class="v-card v-card--flat v-sheet theme--light">
+  <div>
+    <div><img id="id1" src="hero.jpg" alt="name1" aria-label="name1" aria-describedby="Product Image" blank="true" width="363" height="363" class="d-block img-fluid m1"></div>
+  </div>
+  <div class="top-left pt-2">
+    <p aria-label="Name of the product" class="text-secondary overlay">
+      name1
+    </p>
+  </div>
+  <div class="bottom-left">
+    <p aria-label="Price of the product" class="text-white mt-0 mb-0 text-caption">
+
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Products vue match snapshots 1`] = `
+<div class="fluid-homepage" products="[object Object]">
+  <div class="row"></div>
+</div>
+`;

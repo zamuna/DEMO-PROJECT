@@ -55,6 +55,7 @@
           class="d-block img-fluid"
           :aria-label="product.name"
           aria-describedby="Product Image"
+          :data-isHovered="isHovered"
         />
       </div>
       <div v-else>
@@ -77,7 +78,10 @@
       </p>
     </div>
     <div class="bottom-left">
-      <p class="text-white mt-0 mb-0" aria-label="Price of the product">
+      <p
+        class="text-white mt-0 mb-0 text-caption"
+        aria-label="Price of the product"
+      >
         {{
           product.price
             ? product.price.selling
